@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.mobile-profile {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 310px;
+  top: 23px;
+
+}
+span .mobile-logo {
+  width: 125px;
+  height: 60px;
+  position: absolute;
+  top: 25px;
+  left: 75px;
+}
+.mobile-menu {
+  color: white;
+  font-size: 37px;
+  position: absolute;
+  top: 38px;
+  left: 12px;
+}
+.navbar {
+  width: 375px;
+height: 88px;
+/* highlight color/ button color */
+background: #8030D0;
+}
+
+.main-section h1 {
+  margin: 65px 0 0 70px ;
+  font-weight: 500px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+
+/* primary font color */
+
+color: #16163F;
+  
+}
+
+.top-section img {
+  width: 40px;
+  position: absolute;
+  left: 293px;
+top: 143px;
+  /* left: 260px;
+  top: 126px; */
+}
+
+.mobile-progress {
+  /* background-color: blue; */
+  width: 340px;
+  height: 20px;
+  margin: 25px 0 0 19px;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+.mobile-progress .icon {
+  width: 12px;
+  height: 12px;
+}
+.mobile-progress h3 {
+  font-size: 12px;
+  padding-left: 7px;
+}
+
+.mobile-progress div {
+  display: inline-flex;
+}
+
+.mobile-divider {
+  width: 360px;
+  height: 1px;
+  background-color: black;
+  margin: 10px 0 0 10px;
+}
+
+.mobile-bodysection {
+  /* background-color: black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mobile-bodysection .team-profile {
+  /* background-color: blue; */
+  width: 100px;
+  height: 100px;
+  border: 1.5px solid #8030D0;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 0 5px 5px 0;  
+}
+
+.mobile-bodysection img {
+  width: 30px;
+  height: 30px;
+}
+
+.mobile-chatbutton {
+  width: 250px;
+  height: 48px;
+  background-color: #8030D0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin: 25px 0 0 55px;
+}
+
+.mobile-chatbutton i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.mobile-chatbutton h2 {
+  font-size: 15px;
+}
+
+.mobile-lowersection {
+  background-color: #8030D0;
+  width: 375px;
+  height: 70px;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-top: 15px;
+
+}
+
+.mobile-lowersection .section {
+  /* background-color: blue; */
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+
+.mobile-lowersection h2 {
+  font-weight: 700;
+font-size: 12px;
+color: #9E9EA0;
+}
+
+.mobile-lowersection .active {
+  font-weight: 700;
+font-size: 12px;
+color: #F9F9F9;
+margin-top: 10px;
+}
+
+.section {
+  color: #9E9EA0;
+}
+.section:hover {
+  color: #F9F9F9;
+  cursor: pointer;
+}
+
+.active h2 {
+ color: #F9F9F9; 
+}
+.active i {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.active:hover {
+  color: #F9F9F9;
+  cursor: pointer;
+}
+
+.section i{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.bx bxs-edit {
+  color: #9E9EA0;
+}
+.section .bx bx-home:hover {
+  color: rgb(25, 112, 77);
+}
+
+
+
+/* HIDDEN FOR MOBILE VIEW */
+.wavy-bg {
+  display: none;
+
+}
+.navbar .logo {
+  display: none;
+}
+
+.navbar .web-profile {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+.navbar button {
+  display: none;
+}
+.progress-tabs {
+  display: none;
+}
+.top-section button {
+  display: none;
+}
+.body-section {
+  display: none;
+}
+.chat-button {
+  display: none;
+}
+.lower-section {
+  display: none;
+}
